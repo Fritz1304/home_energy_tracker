@@ -3,6 +3,17 @@
   <component name="Http">
     <option name="httpConfigs">
       <map>
+        <entry key="device-service">
+          <value>
+            <HttpConfig>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="hostValue" value="127.0.0.1:8081" />
+              <option name="protocol" value="HTTP" />
+            </HttpConfig>
+          </value>
+        </entry>
         <entry key="user-service">
           <value>
             <HttpConfig>
