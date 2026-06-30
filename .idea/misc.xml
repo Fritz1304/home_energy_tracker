@@ -7,7 +7,14 @@
       <list>
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/device-service/pom.xml" />
+        <option value="$USER_HOME$/Downloads/ingestion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ingestion-service/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/Downloads/ingestion-service/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_26" project-jdk-name="25" project-jdk-type="JavaSDK">

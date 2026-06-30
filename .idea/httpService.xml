@@ -14,6 +14,17 @@
             </HttpConfig>
           </value>
         </entry>
+        <entry key="ingestion-service">
+          <value>
+            <HttpConfig>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="hostValue" value="127.0.0.1:8082" />
+              <option name="protocol" value="HTTP" />
+            </HttpConfig>
+          </value>
+        </entry>
         <entry key="user-service">
           <value>
             <HttpConfig>
