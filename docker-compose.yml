@@ -113,6 +113,13 @@ services:
     volumes:
       - ./influxdb_data:/var/lib/influxdb2
 
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: mailpit
+    ports:
+      - "8085:8085"
+      - "1025:1025"
+
 volumes:
   db-data:
   kafka-data:
