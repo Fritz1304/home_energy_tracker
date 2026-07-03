@@ -25,6 +25,28 @@
             </HttpConfig>
           </value>
         </entry>
+        <entry key="insight-service">
+          <value>
+            <HttpConfig>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="hostValue" value="127.0.0.1:8086" />
+              <option name="protocol" value="HTTP" />
+            </HttpConfig>
+          </value>
+        </entry>
+        <entry key="usage-service">
+          <value>
+            <HttpConfig>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="hostValue" value="127.0.0.1:8083" />
+              <option name="protocol" value="HTTP" />
+            </HttpConfig>
+          </value>
+        </entry>
         <entry key="user-service">
           <value>
             <HttpConfig>

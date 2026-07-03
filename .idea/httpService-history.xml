@@ -552,9 +552,6 @@
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="24" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;jorge&quot;,&quot;surname&quot;:&quot;gamboa&quot;,&quot;email&quot;:&quot;jorge.gamboa@gmail.com&quot;,&quot;address&quot;:&quot;street 17 # 6 - 19&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
               <option name="time" value="2026-06-23 10:30:46" />
               <option name="uri" value="/api/v1/user" />
@@ -568,9 +565,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="25" />
@@ -602,9 +596,6 @@
               <option name="host" value="http://127.0.0.1:8081/api/v1/device" />
               <option name="id" value="26" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;JBL&quot;,&quot;deviceType&quot;:&quot;SPEAKER&quot;,&quot;location&quot;:&quot;MainArea&quot;,&quot;userId&quot;:1}" />
               <option name="time" value="2026-06-23 10:33:07" />
               <option name="uri" value="" />
@@ -627,9 +618,6 @@
               <option name="host" value="http://127.0.0.1:8082/api/v1/ingestion" />
               <option name="id" value="27" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Tue Jun 23 10:45:50 GMT-05:00 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Bad Request, status=400).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
               <option name="time" value="2026-06-23 10:45:50" />
               <option name="uri" value="" />
@@ -652,11 +640,58 @@
               <option name="host" value="http://127.0.0.1:8082/api/v1/ingestion" />
               <option name="id" value="28" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="" />
               <option name="time" value="2026-06-23 10:46:41" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="29">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="29" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Fri Jul 03 11:13:14 GMT-05:00 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-07-03 11:13:14" />
+              <option name="uri" value="/api/v1/insight/overview/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="30">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8086/api/v1/insight/overview/1" />
+              <option name="id" value="30" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Fri Jul 03 11:20:16 GMT-05:00 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-07-03 11:20:16" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
